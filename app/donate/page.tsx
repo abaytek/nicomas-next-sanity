@@ -13,8 +13,7 @@ const Donate = () => {
         // Submit the form data to your donation API
     };
     return (
-        <main className="relative bg-[url('https://media.istockphoto.com/id/1290692045/photo/the-concept-of-unity-cooperation-teamwork-and-charity.jpg?s=170667a&w=0&k=20&c=4VQ9WLRpLimgTLs9aSgkqs7CbdLjbIRPYBea-JaN-mQ=')] bg-no-repeat bg-center bg-cover flex min-h-screen flex-col items-center ">
-            <div className="absolute gap-6 w-full h-full flex flex-col md:flex-row justify-around items-center text-slate-300 px-8 backdrop-blur-sm backdrop-brightness-50">
+            <div className="gap-6 bg-gradient-to-tr from-slate-800 via-slate-600 to-slate-800 min-h-screen w-full h-full flex flex-col md:flex-row justify-around items-center text-slate-300 px-8">
                     <div className="py-4 w-full md:w-2/3 ">
                         <h2 className='py-4 text-2xl'>Donate Now</h2>
 
@@ -26,7 +25,7 @@ const Donate = () => {
                         </form>
                     </div>
 
-                    <div className="w-full flex flex-col items-end justify-start text-slate-50">
+                    <div className="w-full flex flex-col items-end justify-end  h-full text-slate-50">
                         <div className=''>
                             <h2 className='text-xl font-bold text-center'>Why Donate?</h2>
                             <video className='rounded-lg py-2' controls height={300} >
@@ -36,8 +35,7 @@ const Donate = () => {
                         <p className='text-base text-right  px-4 font-light leading-10 text-white '><span className='text-4xl'>&lsquo;</span>Your donation will help us to provide food, shelter, and education to children in need. Your donation will help us to provide food, shelter, and education to children in need. Your donation will help us to provide food, shelter, and education to children in need.  and education to children in need <span className='text-4xl'>&rsquo;</span></p>
 
                     </div>
-            </div>
-        </main>
+        </div>
 
     )
 }
